@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .bg-gradient {
+        background: linear-gradient(
+          180deg,
+          #6a358f 13.02%,
+          #83458e 67.71%
+        ) !important;
+        padding: 30px;
+        border-radius: 40px;
+      }
+
+      .bg-gradient-2 {
+        background: linear-gradient(180deg, #83458e 0%, #6a358f 100%);
+      }
+
+      .poppins {
+        font-family: "Poppins", sans-serif !important;
+      }
+
+      .text-ungu {
+        color: #6a358f;
+      }
+
+      .button {
+        border-radius: 50px;
+      }
+
+      .button:hover {
+        opacity: 90%;
+      }
+
+      .blue-color {
+        background: #00a9c6;
+      }
+    </style>
+  </head>
+  <body>
+    <nav style="background-color: #6a358f" class="navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="image/logo.png" alt="Bootstrap" class="img-fluid" />
+        </a>
+      </div>
+    </nav>
+    <div
+      id="carouselExampleAutoplaying"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/1.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="image/2.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="image/3.jpeg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="image/4.jpeg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 text-center mt-5 mb-5">
+          <p class="poppins fs-2">
+            Harga Normal Paket
+            <br /><span
+              class="poppins fw-bold fs-1 lh-sm"
+              style="color: #83458e"
+            >
+              Internet Only & Combo TV</span
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-6 mb-3">
+          <img class="img-fluid" src="image/h-1.png" alt="" srcset="" />
+        </div>
+        <div class="col-6 mb-3">
+          <img class="img-fluid" src="image/h-2.png" alt="" srcset="" />
+        </div>
+        <div class="col-6 mb-3">
+          <img class="img-fluid" src="image/h-3.png" alt="" srcset="" />
+        </div>
+        <div class="col-6 mb-3">
+          <img class="img-fluid" src="image/h-4.png" alt="" srcset="" />
+        </div>
+        <div class="col-6 mb-3">
+          <img class="img-fluid" src="image/h-5.png" alt="" srcset="" />
+        </div>
+        <div class="col-6 mb-3">
+          <img class="img-fluid" src="image/h-6.png" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+
+    <section class="bg-gradient">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p class="poppins text-center text-white fw-light fs-2">
+              Extra
+              <span class="fw-bold" style="color: #ff5d39"
+                >Router Pro & IP Dynamic</span
+              >
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6 mb-3">
+            <img class="img-fluid" src="image/e-1.png" alt="" srcset="" />
+          </div>
+          <div class="col-6 mb-3">
+            <img class="img-fluid" src="image/e-2.png" alt="" srcset="" />
+          </div>
+          <div class="col-6 mb-3">
+            <img class="img-fluid" src="image/e-3.png" alt="" srcset="" />
+          </div>
+          <div class="col-6 mb-3">
+            <img class="img-fluid" src="image/e-4.png" alt="" srcset="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <img
+              src="image/b-1.jpg"
+              class="img-fluid px-5 mt-3"
+              alt=""
+              srcset=""
+            />
+            <div class="text-center">
+              <img
+                src="image/b-2.jpg"
+                class="img-fluid"
+                width="50%"
+                alt=""
+                srcset=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="image/eeee.jpg" class="img-fluid mt-3" alt="" srcset="" />
+    </section>
+
+    <section class="bg-gradient-2 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p class="poppins fw-bold text-white px-5 pt-5 fs-1 text-center">
+              Apakah Area Anda Sudah Tercover Dan Tersedia Promo Bulanan?
+            </p>
+            <a
+              class="bg-light text-ungu px-3 py-2 text-decoration-none fw-bold button"
+              href="whatsapp://send?text=Hallo Saya Ingin Bertanya Tentang My Republic.&phone=+6282272991511"
+              >Cek Area Dan Promo</a
+            >
+          </div>
+
+          <div class="col-md-12 text-center">
+            <p class="poppins fw-bold text-white px-5 pt-5 fs-1 text-center">
+              Hubungi Kami Untuk informasi Paket
+            </p>
+            <a
+              class="bg-light text-ungu px-3 py-2 text-decoration-none fw-bold button"
+              href="whatsapp://send?text=Hallo Saya Ingin Bertanya Tentang My Republic.&phone=+6282272991511"
+              >Hubungi Kami</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="blue-color p-3">
+      <div class="container">
+        <h1 class="text-center text-white poppins fw-bold">2023</h1>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
